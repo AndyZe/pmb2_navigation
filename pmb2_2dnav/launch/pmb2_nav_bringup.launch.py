@@ -67,7 +67,7 @@ def generate_launch_description():
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
-        default_value=os.path.join(pmb2_maps_dir, 'config', 'empty_world.yaml'),
+        default_value=os.path.join(pmb2_maps_dir, 'config', 'pyrobosim.yaml'),
         description='Full path to map yaml file to load')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
